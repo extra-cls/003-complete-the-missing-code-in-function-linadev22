@@ -2,11 +2,12 @@ function sum(value1, value2){
     /*
     Write the code here to sum of two values from the
     parameters then return the result
-    */
-    // YOUR CODE HERE ....
+   */
+    return value1 + value2;
+
     
 }
-
+console.log(sum(10, 20));
 
 const greeting = (name) => {
     /*
@@ -20,8 +21,12 @@ const greeting = (name) => {
     */
 
     // YOUR CODE HERE ...
+    return `Hello ${name}!`
+
     
 }
+console.log(greeting('Lina'));
+
 
 
 
